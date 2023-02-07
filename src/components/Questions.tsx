@@ -4,11 +4,12 @@ const questions = ["Will you be my Valentine?"];
 
 const Questions = () => {
   const [answer, setAnswer] = useState<boolean>(false);
+  const [please, setPlease] = useState<string>("Please");
 
   const handleClick = (buttonId: string) => {
     if (buttonId === "yes") {
       setAnswer(true);
-    }
+    } else setPlease((prevPlease) => prevPlease + "!");
   };
 
   return (
@@ -34,7 +35,7 @@ const Questions = () => {
           >
             No
           </button>
-          <h1>Please say yes!</h1>
+          <h1>{please}</h1>
         </div>
       )}
     </div>
