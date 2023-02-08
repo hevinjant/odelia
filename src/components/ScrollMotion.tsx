@@ -18,125 +18,346 @@ import {
   ZoomOut,
 } from "react-scroll-motion";
 import Ipiyam from "../assets/ipiyam.jpg";
+import img0 from "../assets/img0.jpg";
 import img1 from "../assets/img1.jpeg";
+import img2 from "../assets/v3.jpg";
+import img3 from "../assets/img3.jpg";
+import img4 from "../assets/img4.jpg";
+import img5 from "../assets/v3.jpg";
+import img6 from "../assets/v3.jpg";
+import img7 from "../assets/v3.jpg";
+import img8 from "../assets/v3.jpg";
+import img9 from "../assets/v3.jpg";
 import img11 from "../assets/img11.jpg";
+import img12 from "../assets/img12.jpg";
+import img13 from "../assets/img13.jpg";
 
 const reasons: string[] = [
-  "You are beautiful",
-  "You are smart",
-  "You are kind",
-  "You are sweet",
-  "You are tough",
-  "You love what I love",
-  "You have a good handwriting",
-  "You are very clean",
-  "You like to build volcanos",
-  "You say injolmi and amibo",
-  "Ipi and Yam gembrot",
-  "You like to eat",
-  "You like to cabut my bulu",
-  "You are exactly what I want",
+  "You are beautiful", //
+  "You are smart", //
+  "You are kind", // n
+  "You are sweet", //
+  "You are tough", //
+  "You love what I love", // n
+  "You have a good handwriting", // n
+  "You are very clean", // n
+  "You like to build volcanos", // n
+  "You say injolmi and amibo", // n
+  "Ipi and Yam gembrot", //
+  "You like to eat", //
+  "You have the best smiles and laughs", //
+  "You are exactly what I want", //
 ];
 
 const ScrollMotion = () => {
   const ZoomInScrollOut = batch(StickyIn(), FadeIn(), ZoomIn());
   const FadeUp = batch(Fade(), Move(), Sticky());
+  const fontColor: string = "#ffc2d1";
 
   return (
     <ScrollContainer>
       <ScrollPage>
         <Animator animation={FadeUp}>
-          <h1 style={{ color: "white", fontSize: "75px" }}>
+          <h1 style={{ color: `${fontColor}`, fontSize: "5vw" }}>
             I Love You Because
           </h1>
         </Animator>
       </ScrollPage>
       <ScrollPage>
         <Animator animation={ZoomInScrollOut}>
-          <h1 style={{ color: "white", fontSize: "50px" }}>{reasons[0]}</h1>
+          <h1
+            style={{
+              color: `${fontColor}`,
+              fontSize: "clamp(30px, 3vw, 50px)",
+            }}
+          >
+            {reasons[0]}
+          </h1>
+          <img
+            src={img0}
+            alt="no image"
+            style={{
+              width: "clamp(250px, 25vw, 280px)",
+              height: "auto",
+              aspectRatio: "auto",
+            }}
+          />
         </Animator>
       </ScrollPage>
       <ScrollPage>
         <Animator animation={FadeUp}>
-          <h1 style={{ color: "white", fontSize: "50px" }}>{reasons[1]}</h1>
+          <h1
+            style={{
+              color: `${fontColor}`,
+              fontSize: "clamp(30px, 3vw, 50px)",
+            }}
+          >
+            {reasons[1]}
+          </h1>
           <img
             src={img1}
             alt="no image"
-            style={{ width: "500px", height: "auto", aspectRatio: "auto" }}
+            style={{
+              width: "clamp(250px, 25vw, 500px)",
+              height: "auto",
+              aspectRatio: "auto",
+            }}
           />
         </Animator>
       </ScrollPage>
       <ScrollPage>
         <Animator animation={MoveOut(1000, 0)}>
-          <h1 style={{ color: "white", fontSize: "50px" }}>{reasons[2]}</h1>
+          <h1
+            style={{
+              color: `${fontColor}`,
+              fontSize: "clamp(30px, 3vw, 50px)",
+            }}
+          >
+            {reasons[2]}
+          </h1>
+          <img
+            src={img2}
+            alt="no image"
+            style={{
+              width: "clamp(250px, 25vw, 500px)",
+              height: "auto",
+              aspectRatio: "auto",
+            }}
+          />
         </Animator>
       </ScrollPage>
       <ScrollPage>
         <Animator animation={FadeUp}>
-          <h1 style={{ color: "white", fontSize: "50px" }}>{reasons[3]}</h1>
+          <h1
+            style={{
+              color: `${fontColor}`,
+              fontSize: "clamp(30px, 3vw, 50px)",
+            }}
+          >
+            {reasons[3]}
+          </h1>
+          <img
+            src={img3}
+            alt="no image"
+            style={{
+              width: "clamp(250px, 25vw, 500px)",
+              height: "auto",
+              aspectRatio: "auto",
+            }}
+          />
         </Animator>
       </ScrollPage>
       <ScrollPage>
         <Animator animation={MoveOut(-1000, 0)}>
-          <h1 style={{ color: "white", fontSize: "50px" }}>{reasons[4]}</h1>
+          <h1
+            style={{
+              color: `${fontColor}`,
+              fontSize: "clamp(30px, 3vw, 50px)",
+            }}
+          >
+            {reasons[4]}
+          </h1>
+          <img
+            src={img4}
+            alt="no image"
+            style={{
+              width: "clamp(250px, 25vw, 500px)",
+              height: "auto",
+              aspectRatio: "auto",
+            }}
+          />
         </Animator>
       </ScrollPage>
       <ScrollPage>
         <Animator animation={FadeUp}>
-          <h1 style={{ color: "white", fontSize: "50px" }}>{reasons[5]}</h1>
+          <h1
+            style={{
+              color: `${fontColor}`,
+              fontSize: "clamp(30px, 3vw, 50px)",
+            }}
+          >
+            {reasons[5]}
+          </h1>
+          <img
+            src={img5}
+            alt="no image"
+            style={{
+              width: "clamp(250px, 25vw, 500px)",
+              height: "auto",
+              aspectRatio: "auto",
+            }}
+          />
         </Animator>
       </ScrollPage>
       <ScrollPage>
         <Animator animation={FadeUp}>
-          <h1 style={{ color: "white", fontSize: "50px" }}>{reasons[6]}</h1>
+          <h1
+            style={{
+              color: `${fontColor}`,
+              fontSize: "clamp(30px, 3vw, 50px)",
+            }}
+          >
+            {reasons[6]}
+          </h1>
+          <img
+            src={img6}
+            alt="no image"
+            style={{
+              width: "clamp(250px, 25vw, 500px)",
+              height: "auto",
+              aspectRatio: "auto",
+            }}
+          />
         </Animator>
       </ScrollPage>
       <ScrollPage>
         <Animator animation={FadeUp}>
-          <h1 style={{ color: "white", fontSize: "50px" }}>{reasons[7]}</h1>
+          <h1
+            style={{
+              color: `${fontColor}`,
+              fontSize: "clamp(30px, 3vw, 50px)",
+            }}
+          >
+            {reasons[7]}
+          </h1>
+          <img
+            src={img7}
+            alt="no image"
+            style={{
+              width: "clamp(250px, 25vw, 500px)",
+              height: "auto",
+              aspectRatio: "auto",
+            }}
+          />
         </Animator>
       </ScrollPage>
       <ScrollPage>
         <Animator animation={FadeUp}>
-          <h1 style={{ color: "white", fontSize: "50px" }}>{reasons[8]}</h1>
+          <h1
+            style={{
+              color: `${fontColor}`,
+              fontSize: "clamp(30px, 3vw, 50px)",
+            }}
+          >
+            {reasons[8]}
+          </h1>
+          <img
+            src={img8}
+            alt="no image"
+            style={{
+              width: "clamp(250px, 25vw, 500px)",
+              height: "auto",
+              aspectRatio: "auto",
+            }}
+          />
         </Animator>
       </ScrollPage>
       <ScrollPage>
         <Animator animation={MoveIn(-1000, 0)}>
-          <h1 style={{ color: "white", fontSize: "50px" }}>{reasons[9]}</h1>
+          <h1
+            style={{
+              color: `${fontColor}`,
+              fontSize: "clamp(30px, 3vw, 50px)",
+            }}
+          >
+            {reasons[9]}
+          </h1>
+          <img
+            src={img9}
+            alt="no image"
+            style={{
+              width: "clamp(250px, 25vw, 500px)",
+              height: "auto",
+              aspectRatio: "auto",
+            }}
+          />
         </Animator>
         <Animator animation={MoveIn(1000, 0)}>
-          <h1 style={{ color: "white", fontSize: "50px" }}>{reasons[10]}</h1>
+          <h1
+            style={{
+              color: `${fontColor}`,
+              fontSize: "clamp(30px, 3vw, 50px)",
+            }}
+          >
+            {reasons[10]}
+          </h1>
           <img
             src={Ipiyam}
             alt="no image"
-            style={{ width: "500px", height: "auto", aspectRatio: "auto" }}
+            style={{
+              width: "clamp(250px, 25vw, 500px)",
+              height: "auto",
+              aspectRatio: "auto",
+            }}
           />
         </Animator>
       </ScrollPage>
       {/* <ScrollPage>
         <Animator animation={MoveIn(1000, 0)}>
-          <h1 style={{ color: "white", fontSize: "50px" }}>{reasons[10]}</h1>
+          <h1 style={{ color: `${fontColor}`, fontSize: "clamp(30px, 3vw, 50px)" }}>{reasons[10]}</h1>
         </Animator>
       </ScrollPage> */}
       <ScrollPage>
         <Animator animation={FadeUp}>
-          <h1 style={{ color: "white", fontSize: "50px" }}>{reasons[11]}</h1>
+          <h1
+            style={{
+              color: `${fontColor}`,
+              fontSize: "clamp(30px, 3vw, 50px)",
+            }}
+          >
+            {reasons[11]}
+          </h1>
           <img
             src={img11}
             alt="no image"
-            style={{ width: "500px", height: "auto", aspectRatio: "auto" }}
+            style={{
+              width: "clamp(250px, 25vw, 500px)",
+              height: "auto",
+              aspectRatio: "auto",
+            }}
           />
         </Animator>
       </ScrollPage>
       <ScrollPage>
         <Animator animation={FadeUp}>
-          <h1 style={{ color: "white", fontSize: "50px" }}>{reasons[12]}</h1>
+          <h1
+            style={{
+              color: `${fontColor}`,
+              fontSize: "clamp(30px, 3vw, 50px)",
+            }}
+          >
+            {reasons[12]}
+          </h1>
+          <img
+            src={img12}
+            alt="no image"
+            style={{
+              width: "clamp(250px, 25vw, 500px)",
+              height: "auto",
+              aspectRatio: "auto",
+            }}
+          />
         </Animator>
       </ScrollPage>
       <ScrollPage>
         <Animator animation={ZoomInScrollOut}>
-          <h1 style={{ color: "white", fontSize: "50px" }}>{reasons[13]}</h1>
+          <h1
+            style={{
+              color: `${fontColor}`,
+              fontSize: "clamp(30px, 3vw, 50px)",
+            }}
+          >
+            {reasons[13]}
+          </h1>
+          <img
+            src={img13}
+            alt="no image"
+            style={{
+              width: "clamp(250px, 25vw, 500px)",
+              height: "auto",
+              aspectRatio: "auto",
+            }}
+          />
         </Animator>
       </ScrollPage>
     </ScrollContainer>

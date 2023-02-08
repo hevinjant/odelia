@@ -1,6 +1,7 @@
 import Questions from "./components/Questions";
 import background from "./assets/v3.jpg";
 import ScrollMotion from "./components/ScrollMotion";
+import ipigreet from "./assets/ipigreet.jpg";
 
 function App() {
   return (
@@ -15,7 +16,17 @@ function App() {
         backgroundImage: `url(${background})`,
       }}
     >
-      <h1>Hello World</h1>
+      <div>
+        <img
+          style={{
+            width: "40vw",
+            height: "auto",
+            borderRadius: "50%",
+          }}
+          src={ipigreet}
+          alt="no image"
+        />
+      </div>
       <ScrollMotion />
       <Questions />
     </div>
