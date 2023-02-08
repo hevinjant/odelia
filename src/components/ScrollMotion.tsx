@@ -58,306 +58,420 @@ const ScrollMotion = () => {
     <ScrollContainer>
       <ScrollPage>
         <Animator animation={FadeUp}>
-          <h1 style={{ color: `${fontColor}`, fontSize: "5vw" }}>
+          <h1
+            style={{
+              color: `${fontColor}`,
+              fontSize: "clamp(30px, 5vw, 50px)",
+            }}
+          >
             I Love You Because
           </h1>
         </Animator>
       </ScrollPage>
       <ScrollPage>
         <Animator animation={ZoomInScrollOut}>
-          <h1
+          <div
             style={{
-              color: `${fontColor}`,
-              fontSize: "clamp(30px, 3vw, 50px)",
+              display: "flex",
+              flexDirection: "column",
+              alignItems: "center",
             }}
           >
-            {reasons[0]}
-          </h1>
-          <img
-            src={img0}
-            alt="no image"
-            style={{
-              width: "clamp(250px, 25vw, 280px)",
-              height: "auto",
-              aspectRatio: "auto",
-            }}
-          />
+            <h1
+              style={{
+                color: `${fontColor}`,
+                fontSize: "clamp(30px, 3vw, 50px)",
+              }}
+            >
+              {reasons[0]}
+            </h1>
+            <img
+              src={img0}
+              alt="no image"
+              style={{
+                width: "clamp(250px, 25vw, 280px)",
+                height: "auto",
+                aspectRatio: "auto",
+              }}
+            />
+          </div>
         </Animator>
       </ScrollPage>
       <ScrollPage>
         <Animator animation={FadeUp}>
-          <h1
+          <div
             style={{
-              color: `${fontColor}`,
-              fontSize: "clamp(30px, 3vw, 50px)",
+              display: "flex",
+              flexDirection: "column",
+              alignItems: "center",
             }}
           >
-            {reasons[1]}
-          </h1>
-          <img
-            src={img1}
-            alt="no image"
-            style={{
-              width: "clamp(250px, 25vw, 500px)",
-              height: "auto",
-              aspectRatio: "auto",
-            }}
-          />
+            <h1
+              style={{
+                color: `${fontColor}`,
+                fontSize: "clamp(30px, 3vw, 50px)",
+              }}
+            >
+              {reasons[1]}
+            </h1>
+            <img
+              src={img1}
+              alt="no image"
+              style={{
+                width: "clamp(250px, 25vw, 500px)",
+                height: "auto",
+                aspectRatio: "auto",
+              }}
+            />
+          </div>
         </Animator>
       </ScrollPage>
       <ScrollPage>
         <Animator animation={MoveOut(1000, 0)}>
-          <h1
+          <div
             style={{
-              color: `${fontColor}`,
-              fontSize: "clamp(30px, 3vw, 50px)",
+              display: "flex",
+              flexDirection: "column",
+              alignItems: "center",
             }}
           >
-            {reasons[2]}
-          </h1>
-          <img
-            src={img2}
-            alt="no image"
-            style={{
-              width: "clamp(250px, 25vw, 500px)",
-              height: "auto",
-              aspectRatio: "auto",
-            }}
-          />
+            <h1
+              style={{
+                color: `${fontColor}`,
+                fontSize: "clamp(30px, 3vw, 50px)",
+              }}
+            >
+              {reasons[2]}
+            </h1>
+            <img
+              src={img2}
+              alt="no image"
+              style={{
+                width: "clamp(250px, 25vw, 500px)",
+                height: "auto",
+                aspectRatio: "auto",
+              }}
+            />
+          </div>
         </Animator>
       </ScrollPage>
       <ScrollPage>
         <Animator animation={FadeUp}>
-          <h1
+          <div
             style={{
-              color: `${fontColor}`,
-              fontSize: "clamp(30px, 3vw, 50px)",
+              display: "flex",
+              flexDirection: "column",
+              alignItems: "center",
             }}
           >
-            {reasons[3]}
-          </h1>
-          <img
-            src={img3}
-            alt="no image"
-            style={{
-              width: "clamp(250px, 25vw, 500px)",
-              height: "auto",
-              aspectRatio: "auto",
-            }}
-          />
+            <h1
+              style={{
+                color: `${fontColor}`,
+                fontSize: "clamp(30px, 3vw, 50px)",
+              }}
+            >
+              {reasons[3]}
+            </h1>
+            <img
+              src={img3}
+              alt="no image"
+              style={{
+                width: "clamp(250px, 25vw, 500px)",
+                height: "auto",
+                aspectRatio: "auto",
+              }}
+            />
+          </div>
         </Animator>
       </ScrollPage>
       <ScrollPage>
         <Animator animation={MoveOut(-1000, 0)}>
-          <h1
+          <div
             style={{
-              color: `${fontColor}`,
-              fontSize: "clamp(30px, 3vw, 50px)",
+              display: "flex",
+              flexDirection: "column",
+              alignItems: "center",
             }}
           >
-            {reasons[4]}
-          </h1>
-          <img
-            src={img4}
-            alt="no image"
-            style={{
-              width: "clamp(250px, 25vw, 500px)",
-              height: "auto",
-              aspectRatio: "auto",
-            }}
-          />
+            <h1
+              style={{
+                color: `${fontColor}`,
+                fontSize: "clamp(30px, 3vw, 50px)",
+              }}
+            >
+              {reasons[4]}
+            </h1>
+            <img
+              src={img4}
+              alt="no image"
+              style={{
+                width: "clamp(250px, 25vw, 500px)",
+                height: "auto",
+                aspectRatio: "auto",
+              }}
+            />
+          </div>
         </Animator>
       </ScrollPage>
       <ScrollPage>
         <Animator animation={FadeUp}>
-          <h1
+          <div
             style={{
-              color: `${fontColor}`,
-              fontSize: "clamp(30px, 3vw, 50px)",
+              display: "flex",
+              flexDirection: "column",
+              alignItems: "center",
             }}
           >
-            {reasons[5]}
-          </h1>
-          <img
-            src={img5}
-            alt="no image"
-            style={{
-              width: "clamp(250px, 25vw, 500px)",
-              height: "auto",
-              aspectRatio: "auto",
-            }}
-          />
+            <h1
+              style={{
+                color: `${fontColor}`,
+                fontSize: "clamp(30px, 3vw, 50px)",
+              }}
+            >
+              {reasons[5]}
+            </h1>
+            <img
+              src={img5}
+              alt="no image"
+              style={{
+                width: "clamp(250px, 25vw, 500px)",
+                height: "auto",
+                aspectRatio: "auto",
+              }}
+            />
+          </div>
         </Animator>
       </ScrollPage>
       <ScrollPage>
         <Animator animation={FadeUp}>
-          <h1
+          <div
             style={{
-              color: `${fontColor}`,
-              fontSize: "clamp(30px, 3vw, 50px)",
+              display: "flex",
+              flexDirection: "column",
+              alignItems: "center",
             }}
           >
-            {reasons[6]}
-          </h1>
-          <img
-            src={img6}
-            alt="no image"
-            style={{
-              width: "clamp(250px, 25vw, 500px)",
-              height: "auto",
-              aspectRatio: "auto",
-            }}
-          />
+            <h1
+              style={{
+                color: `${fontColor}`,
+                fontSize: "clamp(30px, 3vw, 50px)",
+              }}
+            >
+              {reasons[6]}
+            </h1>
+            <img
+              src={img6}
+              alt="no image"
+              style={{
+                width: "clamp(250px, 25vw, 500px)",
+                height: "auto",
+                aspectRatio: "auto",
+              }}
+            />
+          </div>
         </Animator>
       </ScrollPage>
       <ScrollPage>
         <Animator animation={FadeUp}>
-          <h1
+          <div
             style={{
-              color: `${fontColor}`,
-              fontSize: "clamp(30px, 3vw, 50px)",
+              display: "flex",
+              flexDirection: "column",
+              alignItems: "center",
             }}
           >
-            {reasons[7]}
-          </h1>
-          <img
-            src={img7}
-            alt="no image"
-            style={{
-              width: "clamp(250px, 25vw, 500px)",
-              height: "auto",
-              aspectRatio: "auto",
-            }}
-          />
+            <h1
+              style={{
+                color: `${fontColor}`,
+                fontSize: "clamp(30px, 3vw, 50px)",
+              }}
+            >
+              {reasons[7]}
+            </h1>
+            <img
+              src={img7}
+              alt="no image"
+              style={{
+                width: "clamp(250px, 25vw, 500px)",
+                height: "auto",
+                aspectRatio: "auto",
+              }}
+            />
+          </div>
         </Animator>
       </ScrollPage>
       <ScrollPage>
         <Animator animation={FadeUp}>
-          <h1
+          <div
             style={{
-              color: `${fontColor}`,
-              fontSize: "clamp(30px, 3vw, 50px)",
+              display: "flex",
+              flexDirection: "column",
+              alignItems: "center",
             }}
           >
-            {reasons[8]}
-          </h1>
-          <img
-            src={img8}
-            alt="no image"
-            style={{
-              width: "clamp(250px, 25vw, 500px)",
-              height: "auto",
-              aspectRatio: "auto",
-            }}
-          />
-        </Animator>
-      </ScrollPage>
-      <ScrollPage>
-        <Animator animation={MoveIn(-1000, 0)}>
-          <h1
-            style={{
-              color: `${fontColor}`,
-              fontSize: "clamp(30px, 3vw, 50px)",
-            }}
-          >
-            {reasons[9]}
-          </h1>
-          <img
-            src={img9}
-            alt="no image"
-            style={{
-              width: "clamp(250px, 25vw, 500px)",
-              height: "auto",
-              aspectRatio: "auto",
-            }}
-          />
-        </Animator>
-        <Animator animation={MoveIn(1000, 0)}>
-          <h1
-            style={{
-              color: `${fontColor}`,
-              fontSize: "clamp(30px, 3vw, 50px)",
-            }}
-          >
-            {reasons[10]}
-          </h1>
-          <img
-            src={Ipiyam}
-            alt="no image"
-            style={{
-              width: "clamp(250px, 25vw, 500px)",
-              height: "auto",
-              aspectRatio: "auto",
-            }}
-          />
-        </Animator>
-      </ScrollPage>
-      {/* <ScrollPage>
-        <Animator animation={MoveIn(1000, 0)}>
-          <h1 style={{ color: `${fontColor}`, fontSize: "clamp(30px, 3vw, 50px)" }}>{reasons[10]}</h1>
-        </Animator>
-      </ScrollPage> */}
-      <ScrollPage>
-        <Animator animation={FadeUp}>
-          <h1
-            style={{
-              color: `${fontColor}`,
-              fontSize: "clamp(30px, 3vw, 50px)",
-            }}
-          >
-            {reasons[11]}
-          </h1>
-          <img
-            src={img11}
-            alt="no image"
-            style={{
-              width: "clamp(250px, 25vw, 500px)",
-              height: "auto",
-              aspectRatio: "auto",
-            }}
-          />
+            <h1
+              style={{
+                color: `${fontColor}`,
+                fontSize: "clamp(30px, 3vw, 50px)",
+              }}
+            >
+              {reasons[8]}
+            </h1>
+            <img
+              src={img8}
+              alt="no image"
+              style={{
+                width: "clamp(250px, 25vw, 500px)",
+                height: "auto",
+                aspectRatio: "auto",
+              }}
+            />
+          </div>
         </Animator>
       </ScrollPage>
       <ScrollPage>
         <Animator animation={FadeUp}>
-          <h1
+          <div
             style={{
-              color: `${fontColor}`,
-              fontSize: "clamp(30px, 3vw, 50px)",
+              display: "flex",
+              flexDirection: "column",
+              alignItems: "center",
             }}
           >
-            {reasons[12]}
-          </h1>
-          <img
-            src={img12}
-            alt="no image"
+            <h1
+              style={{
+                color: `${fontColor}`,
+                fontSize: "clamp(30px, 3vw, 50px)",
+              }}
+            >
+              {reasons[9]}
+            </h1>
+            <img
+              src={img9}
+              alt="no image"
+              style={{
+                width: "clamp(250px, 25vw, 500px)",
+                height: "auto",
+                aspectRatio: "auto",
+              }}
+            />
+          </div>
+        </Animator>
+      </ScrollPage>
+      <ScrollPage>
+        <Animator animation={FadeUp}>
+          <div
             style={{
-              width: "clamp(250px, 25vw, 500px)",
-              height: "auto",
-              aspectRatio: "auto",
+              display: "flex",
+              flexDirection: "column",
+              alignItems: "center",
             }}
-          />
+          >
+            <h1
+              style={{
+                color: `${fontColor}`,
+                fontSize: "clamp(30px, 3vw, 50px)",
+              }}
+            >
+              {reasons[10]}
+            </h1>
+            <img
+              src={Ipiyam}
+              alt="no image"
+              style={{
+                width: "clamp(250px, 25vw, 500px)",
+                height: "auto",
+                aspectRatio: "auto",
+              }}
+            />
+          </div>
+        </Animator>
+      </ScrollPage>
+      <ScrollPage>
+        <Animator animation={FadeUp}>
+          <div
+            style={{
+              display: "flex",
+              flexDirection: "column",
+              alignItems: "center",
+            }}
+          >
+            <h1
+              style={{
+                color: `${fontColor}`,
+                fontSize: "clamp(30px, 3vw, 50px)",
+              }}
+            >
+              {reasons[11]}
+            </h1>
+            <img
+              src={img11}
+              alt="no image"
+              style={{
+                width: "clamp(250px, 25vw, 500px)",
+                height: "auto",
+                aspectRatio: "auto",
+              }}
+            />
+          </div>
+        </Animator>
+      </ScrollPage>
+      <ScrollPage>
+        <Animator animation={FadeUp}>
+          <div
+            style={{
+              display: "flex",
+              flexDirection: "column",
+              alignItems: "center",
+            }}
+          >
+            <h1
+              style={{
+                color: `${fontColor}`,
+                fontSize: "clamp(30px, 3vw, 50px)",
+              }}
+            >
+              {reasons[12]}
+            </h1>
+            <img
+              src={img12}
+              alt="no image"
+              style={{
+                width: "clamp(250px, 25vw, 500px)",
+                height: "auto",
+                aspectRatio: "auto",
+              }}
+            />
+          </div>
         </Animator>
       </ScrollPage>
       <ScrollPage>
         <Animator animation={ZoomInScrollOut}>
-          <h1
+          <div
             style={{
-              color: `${fontColor}`,
-              fontSize: "clamp(30px, 3vw, 50px)",
+              display: "flex",
+              flexDirection: "column",
+              alignItems: "center",
             }}
           >
-            {reasons[13]}
-          </h1>
-          <img
-            src={img13}
-            alt="no image"
-            style={{
-              width: "clamp(250px, 25vw, 500px)",
-              height: "auto",
-              aspectRatio: "auto",
-            }}
-          />
+            <h1
+              style={{
+                color: `${fontColor}`,
+                fontSize: "clamp(30px, 3vw, 50px)",
+              }}
+            >
+              {reasons[13]}
+            </h1>
+            <img
+              src={img13}
+              alt="no image"
+              style={{
+                width: "clamp(250px, 25vw, 500px)",
+                height: "auto",
+                aspectRatio: "auto",
+              }}
+            />
+          </div>
         </Animator>
       </ScrollPage>
     </ScrollContainer>

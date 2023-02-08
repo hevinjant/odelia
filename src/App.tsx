@@ -20,7 +20,7 @@ function App() {
         <img
           style={{
             width: "40vw",
-            height: "auto",
+            height: "40vw",
             borderRadius: "50%",
           }}
           src={ipigreet}
