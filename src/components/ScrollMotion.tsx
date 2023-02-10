@@ -101,6 +101,9 @@ const ScrollMotion = () => {
               color: "white",
               width: "clamp(270px, 25vw, 400px)",
               textAlign: "justify",
+              backgroundColor: "rgba(255, 170, 203, 0.5)",
+              padding: "25px",
+              borderRadius: "5%",
             }}
           >
             I created this web page just to let you know that I'm very happy
