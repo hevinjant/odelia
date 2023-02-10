@@ -27,7 +27,13 @@ const Questions = () => {
         marginBottom: "25vh",
       }}
     >
-      <h1 style={{ fontSize: "clamp(20px, 4vw, 50px)", color: "#ffc2d1" }}>
+      <h1
+        style={{
+          fontSize: "clamp(20px, 4vw, 50px)",
+          color: "#ffc2d1",
+          marginBottom: "50px",
+        }}
+      >
         Will you be my Valentine?
       </h1>
       {/* <AnimatedText
@@ -80,16 +86,16 @@ const Questions = () => {
               }}
               style={{
                 width: "100px",
-                height: "85px",
+                height: "65px",
                 border: "none",
                 borderRadius: "10%",
                 color: "white",
                 fontSize: "25px",
-                backgroundColor: "green",
+                backgroundColor: "#87ab69",
                 marginRight: "10px",
               }}
             >
-              Yes
+              Yes!
             </button>
             <button
               id="no"
@@ -98,12 +104,12 @@ const Questions = () => {
               }}
               style={{
                 width: "100px",
-                height: "85px",
+                height: "65px",
                 border: "none",
                 borderRadius: "10%",
                 color: "white",
                 fontSize: "25px",
-                backgroundColor: "red",
+                backgroundColor: "#f6032f",
                 marginLeft: "10px",
               }}
             >

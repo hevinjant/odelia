@@ -77,41 +77,53 @@ const ScrollMotion = () => {
               width: "40vw",
               height: "40vw",
               borderRadius: "50%",
+              marginBottom: "20px",
             }}
             src={ipigreet}
             alt="no image"
           />
 
+          <h1
+            style={{
+              fontSize: "clamp(20px, 4vw, 60px)",
+              color: "white",
+              marginBottom: "0",
+            }}
+          >
+            Dear Odelia,
+          </h1>
           <h1 style={{ fontSize: "clamp(20px, 4vw, 60px)", color: "white" }}>
-            Happy Valentine's Day, Odelia
+            Happy Valentine's Day
           </h1>
         </div>
       </ScrollPage>
       <ScrollPage>
-        <div
-          style={{
-            display: "flex",
-            flexDirection: "column",
-            alignItems: "center",
-          }}
-        >
-          <p
+        <Animator animation={FadeUp}>
+          <div
             style={{
-              fontSize: "clamp(20px, 3vw, 25px)",
-              color: "white",
-              width: "clamp(270px, 25vw, 400px)",
-              textAlign: "justify",
-              backgroundColor: "rgba(255, 170, 203, 0.5)",
-              padding: "25px",
-              borderRadius: "5%",
+              display: "flex",
+              flexDirection: "column",
+              alignItems: "center",
             }}
           >
-            I created this web page just to let you know that I'm very happy
-            with you. I enjoy each and every moment with you, every moment is my
-            favorite moment. I want to show you my favorite pictures of you and
-            us and want to tell you of why I love you so so much.
-          </p>
-        </div>
+            <p
+              style={{
+                fontSize: "clamp(20px, 3vw, 25px)",
+                color: "white",
+                width: "clamp(270px, 25vw, 400px)",
+                textAlign: "justify",
+                backgroundColor: "rgba(255, 170, 203, 0.5)",
+                padding: "25px",
+                borderRadius: "5%",
+              }}
+            >
+              I created this web page just to let you know that I'm very happy
+              with you. I enjoy each and every moment with you, every moment is
+              my favorite moment. I want to show you my favorite pictures of you
+              and us and want to tell you of why I love you so so much.
+            </p>
+          </div>
+        </Animator>
       </ScrollPage>
       <ScrollPage>
         <Animator animation={FadeUp}>
