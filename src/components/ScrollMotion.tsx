@@ -23,14 +23,20 @@ import img1 from "../assets/img1.jpeg";
 import img2 from "../assets/v3.jpg";
 import img3 from "../assets/img3.jpg";
 import img4 from "../assets/img4.jpg";
-import img5 from "../assets/v3.jpg";
+import img5 from "../assets/img5.jpg";
 import img6 from "../assets/v3.jpg";
-import img7 from "../assets/v3.jpg";
+import img7 from "../assets/img7.jpg";
 import img8 from "../assets/v3.jpg";
-import img9 from "../assets/v3.jpg";
+import img9 from "../assets/img9.jpg";
 import img11 from "../assets/img11.jpg";
 import img12 from "../assets/img12.jpg";
 import img13 from "../assets/img13.jpg";
+import img15 from "../assets/img15.jpg";
+import img16 from "../assets/img16.jpg";
+import img17 from "../assets/img17.jpg";
+import img18 from "../assets/img18.jpg";
+import img19 from "../assets/img19.jpg";
+import img20 from "../assets/img20.jpg";
 
 const reasons: string[] = [
   "You are beautiful", //
@@ -38,7 +44,7 @@ const reasons: string[] = [
   "You are kind", // n
   "You are sweet", //
   "You are tough", //
-  "You love what I love", // n
+  "You are a racer", // n
   "You have a good handwriting", // n
   "You are very clean", // n
   "You like to build volcanos", // n
@@ -185,7 +191,7 @@ const ScrollMotion = () => {
         </Animator>
       </ScrollPage>
       <ScrollPage>
-        <Animator animation={MoveOut(-1000, 0)}>
+        <Animator animation={FadeUp}>
           <div
             style={{
               display: "flex",
@@ -464,6 +470,132 @@ const ScrollMotion = () => {
             </h1>
             <img
               src={img13}
+              alt="no image"
+              style={{
+                width: "clamp(250px, 25vw, 500px)",
+                height: "auto",
+                aspectRatio: "auto",
+              }}
+            />
+          </div>
+        </Animator>
+      </ScrollPage>
+      <ScrollPage>
+        <Animator animation={ZoomInScrollOut}>
+          <div
+            style={{
+              display: "flex",
+              flexDirection: "column",
+              alignItems: "center",
+            }}
+          >
+            <img
+              src={img15}
+              alt="no image"
+              style={{
+                width: "clamp(250px, 25vw, 500px)",
+                height: "auto",
+                aspectRatio: "auto",
+              }}
+            />
+          </div>
+        </Animator>
+      </ScrollPage>
+      <ScrollPage>
+        <Animator animation={ZoomInScrollOut}>
+          <div
+            style={{
+              display: "flex",
+              flexDirection: "column",
+              alignItems: "center",
+            }}
+          >
+            <img
+              src={img16}
+              alt="no image"
+              style={{
+                width: "clamp(250px, 25vw, 500px)",
+                height: "auto",
+                aspectRatio: "auto",
+              }}
+            />
+          </div>
+        </Animator>
+      </ScrollPage>
+      <ScrollPage>
+        <Animator animation={ZoomInScrollOut}>
+          <div
+            style={{
+              display: "flex",
+              flexDirection: "column",
+              alignItems: "center",
+            }}
+          >
+            <img
+              src={img19}
+              alt="no image"
+              style={{
+                width: "clamp(250px, 25vw, 500px)",
+                height: "auto",
+                aspectRatio: "auto",
+              }}
+            />
+          </div>
+        </Animator>
+      </ScrollPage>
+      <ScrollPage>
+        <Animator animation={ZoomInScrollOut}>
+          <div
+            style={{
+              display: "flex",
+              flexDirection: "column",
+              alignItems: "center",
+            }}
+          >
+            <img
+              src={img17}
+              alt="no image"
+              style={{
+                width: "clamp(250px, 25vw, 500px)",
+                height: "auto",
+                aspectRatio: "auto",
+              }}
+            />
+          </div>
+        </Animator>
+      </ScrollPage>
+      <ScrollPage>
+        <Animator animation={ZoomInScrollOut}>
+          <div
+            style={{
+              display: "flex",
+              flexDirection: "column",
+              alignItems: "center",
+            }}
+          >
+            <img
+              src={img18}
+              alt="no image"
+              style={{
+                width: "clamp(250px, 25vw, 500px)",
+                height: "auto",
+                aspectRatio: "auto",
+              }}
+            />
+          </div>
+        </Animator>
+      </ScrollPage>
+      <ScrollPage>
+        <Animator animation={ZoomInScrollOut}>
+          <div
+            style={{
+              display: "flex",
+              flexDirection: "column",
+              alignItems: "center",
+            }}
+          >
+            <img
+              src={img20}
               alt="no image"
               style={{
                 width: "clamp(250px, 25vw, 500px)",

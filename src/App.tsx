@@ -16,7 +16,7 @@ function App() {
         backgroundImage: `url(${background})`,
       }}
     >
-      <div>
+      <div style={{ marginTop: "8vh" }}>
         <img
           style={{
             width: "40vw",

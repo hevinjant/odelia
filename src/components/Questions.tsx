@@ -1,4 +1,8 @@
 import { useState } from "react";
+import ConfettiExplosion from "react-confetti-explosion";
+// import { useWindowSize } from "@react-hook/window-size";
+// import Confetti from "react-confetti";
+// import AnimatedText from "react-animated-text-content";
 
 const Questions = () => {
   const [answer, setAnswer] = useState<boolean>(false);
@@ -26,10 +30,38 @@ const Questions = () => {
       <h1 style={{ fontSize: "clamp(30px, 3vw, 50px)", color: "white" }}>
         Will you be my Valentine?
       </h1>
+      {/* <AnimatedText
+        type="words"
+        animation={{
+          x: "200px",
+          y: "-20px",
+          scale: 1.1,
+          ease: "ease-in-out",
+        }}
+        animationType="lights"
+        interval={0.2}
+        duration={1.2}
+        tag="h1"
+        className="animated-paragraph"
+        includeWhiteSpaces
+        threshold={0.1}
+        rootMargin="20%"
+      >
+        Will you be my Valentine?
+      </AnimatedText> */}
       {answer ? (
-        <h1 style={{ fontSize: "clamp(30px, 3vw, 50px)", color: "white" }}>
-          Thank you!!! Let's dance!
-        </h1>
+        <>
+          <h1 style={{ fontSize: "clamp(30px, 3vw, 50px)", color: "white" }}>
+            Thank you!!! Let's dance!
+          </h1>
+          <ConfettiExplosion
+            force={0.8}
+            duration={7000}
+            particleCount={500}
+            width={2000}
+            height={2000}
+          />
+        </>
       ) : (
         <div>
           <div
@@ -47,6 +79,7 @@ const Questions = () => {
               }}
               style={{
                 width: "100px",
+                height: "85px",
                 border: "none",
                 borderRadius: "10%",
                 color: "white",
@@ -64,6 +97,7 @@ const Questions = () => {
               }}
               style={{
                 width: "100px",
+                height: "85px",
                 border: "none",
                 borderRadius: "10%",
                 color: "white",
