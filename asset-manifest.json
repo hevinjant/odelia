@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/odelia/static/css/main.85c2ddb1.css",
+    "main.css": "/odelia/static/css/main.125ce7a9.css",
     "main.js": "/odelia/static/js/main.ca505f77.js",
     "static/js/787.151303d4.chunk.js": "/odelia/static/js/787.151303d4.chunk.js",
     "static/media/img0.jpg": "/odelia/static/media/img0.0d49fd50839b6df464ab.jpg",
@@ -26,12 +26,12 @@
     "static/media/ipiyam.jpg": "/odelia/static/media/ipiyam.458cdabf9ea4fa7ff23e.jpg",
     "static/media/ipigreet.jpg": "/odelia/static/media/ipigreet.750dc2f1c3fbe6427763.jpg",
     "index.html": "/odelia/index.html",
-    "main.85c2ddb1.css.map": "/odelia/static/css/main.85c2ddb1.css.map",
+    "main.125ce7a9.css.map": "/odelia/static/css/main.125ce7a9.css.map",
     "main.ca505f77.js.map": "/odelia/static/js/main.ca505f77.js.map",
     "787.151303d4.chunk.js.map": "/odelia/static/js/787.151303d4.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.85c2ddb1.css",
+    "static/css/main.125ce7a9.css",
     "static/js/main.ca505f77.js"
   ]
 }
