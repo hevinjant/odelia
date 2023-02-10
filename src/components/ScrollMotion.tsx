@@ -99,7 +99,7 @@ const ScrollMotion = () => {
             style={{
               fontSize: "clamp(20px, 3vw, 25px)",
               color: "white",
-              width: "500px",
+              width: "clamp(200px, 25vw, 400px)",
               textAlign: "justify",
             }}
           >
