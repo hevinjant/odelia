@@ -27,7 +27,7 @@ const Questions = () => {
         marginBottom: "25vh",
       }}
     >
-      <h1 style={{ fontSize: "clamp(30px, 3vw, 50px)", color: "white" }}>
+      <h1 style={{ fontSize: "clamp(30px, 4vw, 60px)", color: "#ffc2d1" }}>
         Will you be my Valentine?
       </h1>
       {/* <AnimatedText
@@ -52,14 +52,15 @@ const Questions = () => {
       {answer ? (
         <>
           <h1 style={{ fontSize: "clamp(30px, 3vw, 50px)", color: "white" }}>
-            Thank you!!! Let's dance!
+            Yeay! Thank you!
           </h1>
           <ConfettiExplosion
-            force={0.8}
-            duration={7000}
+            force={0.5}
+            duration={10000}
             particleCount={500}
             width={2000}
             height={2000}
+            colors={["#ffc2d1", "#fb6f92", "#a155b9", "#f9d1d1"]}
           />
         </>
       ) : (
