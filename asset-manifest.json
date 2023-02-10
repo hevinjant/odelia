@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/odelia/static/css/main.b0d82aee.css",
-    "main.js": "/odelia/static/js/main.cfca8ff4.js",
+    "main.css": "/odelia/static/css/main.85c2ddb1.css",
+    "main.js": "/odelia/static/js/main.ca505f77.js",
     "static/js/787.151303d4.chunk.js": "/odelia/static/js/787.151303d4.chunk.js",
     "static/media/img0.jpg": "/odelia/static/media/img0.0d49fd50839b6df464ab.jpg",
     "static/media/img4.jpg": "/odelia/static/media/img4.272e19ac676c36b44feb.jpg",
@@ -26,12 +26,12 @@
     "static/media/ipiyam.jpg": "/odelia/static/media/ipiyam.458cdabf9ea4fa7ff23e.jpg",
     "static/media/ipigreet.jpg": "/odelia/static/media/ipigreet.750dc2f1c3fbe6427763.jpg",
     "index.html": "/odelia/index.html",
-    "main.b0d82aee.css.map": "/odelia/static/css/main.b0d82aee.css.map",
-    "main.cfca8ff4.js.map": "/odelia/static/js/main.cfca8ff4.js.map",
+    "main.85c2ddb1.css.map": "/odelia/static/css/main.85c2ddb1.css.map",
+    "main.ca505f77.js.map": "/odelia/static/js/main.ca505f77.js.map",
     "787.151303d4.chunk.js.map": "/odelia/static/js/787.151303d4.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b0d82aee.css",
-    "static/js/main.cfca8ff4.js"
+    "static/css/main.85c2ddb1.css",
+    "static/js/main.ca505f77.js"
   ]
 }
