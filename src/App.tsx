@@ -1,6 +1,7 @@
 import Questions from "./components/Questions";
 import background from "./assets/v3.jpg";
 import ScrollMotion from "./components/ScrollMotion";
+import "./App.css";
 
 function App() {
   return (
