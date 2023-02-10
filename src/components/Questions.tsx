@@ -27,7 +27,7 @@ const Questions = () => {
         marginBottom: "25vh",
       }}
     >
-      <h1 style={{ fontSize: "clamp(30px, 4vw, 60px)", color: "#ffc2d1" }}>
+      <h1 style={{ fontSize: "clamp(20px, 4vw, 50px)", color: "#ffc2d1" }}>
         Will you be my Valentine?
       </h1>
       {/* <AnimatedText

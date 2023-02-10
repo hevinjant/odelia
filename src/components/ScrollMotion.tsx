@@ -82,7 +82,7 @@ const ScrollMotion = () => {
             alt="no image"
           />
 
-          <h1 style={{ fontSize: "clamp(30px, 4vw, 60px)", color: "white" }}>
+          <h1 style={{ fontSize: "clamp(20px, 4vw, 60px)", color: "white" }}>
             Happy Valentine's Day, Odelia
           </h1>
         </div>
@@ -97,7 +97,7 @@ const ScrollMotion = () => {
         >
           <p
             style={{
-              fontSize: "30px",
+              fontSize: "clamp(20px, 3vw, 25px)",
               color: "white",
               width: "500px",
               textAlign: "justify",
