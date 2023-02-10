@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/odelia/static/css/main.e6c13ad2.css",
+    "main.js": "/odelia/static/js/main.bf0b4483.js",
+    "static/js/787.151303d4.chunk.js": "/odelia/static/js/787.151303d4.chunk.js",
+    "static/media/img0.jpg": "/odelia/static/media/img0.0d49fd50839b6df464ab.jpg",
+    "static/media/img4.jpg": "/odelia/static/media/img4.272e19ac676c36b44feb.jpg",
+    "static/media/img13.jpg": "/odelia/static/media/img13.486f19d7752c60ff1d67.jpg",
+    "static/media/img3.jpg": "/odelia/static/media/img3.d4e76396c164e3f9c3bd.jpg",
+    "static/media/img12.jpg": "/odelia/static/media/img12.d25c1c1e99256a4586e3.jpg",
+    "static/media/v3.jpg": "/odelia/static/media/v3.ec1d45183c54eef2f685.jpg",
+    "static/media/img7.jpg": "/odelia/static/media/img7.3cce1c3238f0610554a4.jpg",
+    "static/media/img20.jpg": "/odelia/static/media/img20.49759425bad3719aa092.jpg",
+    "static/media/img2.jpg": "/odelia/static/media/img2.71f18a86eafa3bd4dcc1.jpg",
+    "static/media/img11.jpg": "/odelia/static/media/img11.0371e67da9c392191e4c.jpg",
+    "static/media/img9.jpg": "/odelia/static/media/img9.668ac52a36e3d611e691.jpg",
+    "static/media/img5.jpg": "/odelia/static/media/img5.33cc2fc329150a4edc2e.jpg",
+    "static/media/img16.jpg": "/odelia/static/media/img16.652b50a82c9542a78f66.jpg",
+    "static/media/img19.jpg": "/odelia/static/media/img19.ccf52063b3e8d1833de2.jpg",
+    "static/media/img15.jpg": "/odelia/static/media/img15.b438d354d2705a1ac128.jpg",
+    "static/media/img17.jpg": "/odelia/static/media/img17.427f663a97030cd84dcd.jpg",
+    "static/media/img8.jpg": "/odelia/static/media/img8.6088023df878007c1337.jpg",
+    "static/media/img1.jpeg": "/odelia/static/media/img1.75dffa0e9a026fc86985.jpeg",
+    "static/media/img18.jpg": "/odelia/static/media/img18.c65f149e211ce81be40f.jpg",
+    "static/media/img6.jpg": "/odelia/static/media/img6.e297ee09fe7172233da3.jpg",
+    "static/media/ipiyam.jpg": "/odelia/static/media/ipiyam.458cdabf9ea4fa7ff23e.jpg",
+    "static/media/ipigreet.jpg": "/odelia/static/media/ipigreet.750dc2f1c3fbe6427763.jpg",
+    "index.html": "/odelia/index.html",
+    "main.e6c13ad2.css.map": "/odelia/static/css/main.e6c13ad2.css.map",
+    "main.bf0b4483.js.map": "/odelia/static/js/main.bf0b4483.js.map",
+    "787.151303d4.chunk.js.map": "/odelia/static/js/787.151303d4.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.bf0b4483.js"
+  ]
+}
